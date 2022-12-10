@@ -1,0 +1,22 @@
+DOUBT --> 
+why we created server using http
+
+Need  more practice on socket programming....
+
+
+Architecture --->
+
+How web sockets work , what are web sockets , how our data is getting transferred ? 
+
+First of all we had three layers in INTERNET protocol suites are 
+1. Application layer ( at which we develop our program) 
+2. Internet Layer (IP4  , IP6) 
+3. Transport Layer [TCP -> used to transfer data in complete form , no lost in data . UDP -> used to transfer video files, where lost in data is possible  ]
+
+HTTP Request/ Response 
+
+It is request response model 
+IN HTTP after the initial request is done , server-client communication lost 
+
+Web Sockets --> full duplex bidirectional model 
+we need to send the headers once and the connection is set up in real time , they can share data between each other as node to node 
